@@ -4,7 +4,7 @@ class GBWebsocket {
         this.ws = new WebSocket(url);
     }
     
-    init(s)
+/*    init(s)
     {
      this.serial = s;
      this.ws.onmessage = (function(event){
@@ -25,7 +25,7 @@ class GBWebsocket {
                this.ws.send(this.serial.buffer_out.pop());
      }).bind(this);
      this.waitForConnection();
-    }
+    }*/
 
     waitForConnection() 
     {

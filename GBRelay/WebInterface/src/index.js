@@ -11,7 +11,7 @@ import { Serial } from './serial.js';
 global.jQuery = require('jquery');
 require('bootstrap');
 
-const HOSTSTATIC = "10.0.2.15"; 
+const HOSTSTATIC = "127.0.0.1"; 
 
 class OnlineGBGame extends React.Component {
   constructor(props)

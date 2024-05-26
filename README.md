@@ -23,7 +23,7 @@ A GameBoy Relay over Internet
 <br>
 
 <h3>ReactJS project :</h3>
-./GBRelay/WebInterface/<br>
+./WebInterface/<br>
 npm install<br>
 npm run build<br>
 HTTPS=true npm start<br>
